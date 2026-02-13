@@ -70,10 +70,5 @@ If you'll put it in your `gamemodes` folder:
 
 ---
 
-## Credits
-Cinematic Camera Editor coded by [Stewart](https://github.com/stewartab)
-
----
-
 ## License
 > This project is released under the MIT License — free to use, modify, and distribute.
