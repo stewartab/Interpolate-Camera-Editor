@@ -12,7 +12,7 @@ Smoothly move the camera through multiple points to create professional cinemati
 - Play scenes with smooth interpolation  
 - Export scene coordinates to the server console  
 - Supports multiple scenes per server  
-- Supports PC and Mobile Clients
+- Now supports PC and Mobile Clients
 
 ---
 
@@ -47,7 +47,7 @@ If you'll put it in your `gamemodes` folder:
     - Move forward/backward: **W / S**
     - Strafe left/right: **A / D**
     - Jump / Crouch: **Space / Ctrl**
-- Credits to [Pottus](https://github.com/Pottus) for its open-source [Texture Studio](https://github.com/Pottus/Texture-Studio)
+- Credits to [Pottus](https://github.com/Pottus) for its open-source [Texture Studio](https://github.com/Pottus/Texture-Studio/blob/master/filterscripts/tstudio/flymode.pwn)
 
 2. `/addcampoint <sceneid> <time>`
 - Add current camera position as a point in a scene
