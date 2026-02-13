@@ -46,7 +46,7 @@ If you'll put it in your `gamemodes` folder:
 - Keys:
     - Move forward/backward: **W / S**
     - Strafe left/right: **A / D**
-    - Jump / Crouch: **Space / Ctrl**
+    - Go high / Go low: **Space / Ctrl**
 - Credits to [Pottus](https://github.com/Pottus) for its open-source [Texture Studio](https://github.com/Pottus/Texture-Studio/blob/master/filterscripts/tstudio/flymode.pwn)
 
 2. `/addcampoint <sceneid> <time>`

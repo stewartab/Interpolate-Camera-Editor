@@ -61,8 +61,6 @@ new bool:FlyMode[MAX_PLAYERS];
 
 //--------------------------------------------------
 
-IsFlyMode(playerid) { return noclipdata[playerid][cameramode]; }
-
 
 public OnFilterScriptExit()
 {
@@ -358,27 +356,6 @@ MoveCamera(playerid)
 	noclipdata[playerid][lastmove] = GetTickCount();
 	return 1;
 }
-
-SetFlyModePos(playerid, Float:x, Float:y, Float:z)
-{
-	if(FlyMode[playerid])
-	{
-		SetDynamicObjectPos(noclipdata[playerid][flyobject], x, y, z);
-		noclipdata[playerid][lastmove] = GetTickCount();
-		return 1;
-	}
-	return 0;
-}
-GetFlyModePos(playerid, &Float:x, &Float:y, &Float:z)
-{
-	if(FlyMode[playerid])
-	{
-		GetDynamicObjectPos(noclipdata[playerid][flyobject], x, y, z);
-		return 1;
-	}
-	return 0;
-}
-
 
 //--------------------------------------------------
 
